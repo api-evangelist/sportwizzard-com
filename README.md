@@ -1,4 +1,4 @@
-# sportwizzard-com
+# SportWizzard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sportwizzard-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sportwizzard.com/
+SportWizzard provides a platform for daily fantasy sports (DFS) line shopping, arbitrage, and market data via a REST API. It aggregates odds, player statistics, and historical pricing from multiple sportsbooks and DFS sources, offering real-time data for developers to build betting tools, AI agents, and analytics. The service includes endpoints for events, odds, stats, and context, with pagination and free API key access for testing.
+
+**Areas:** Company · Sports · Betting · Data · API · DFS
+
+## SportWizzard on APIs.io
+
+Everything profiled for SportWizzard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sportwizzard-com/](https://apis.io/providers/sportwizzard-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [SportWizzard Account API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-account-api/) — Your plan, rate limit, and usage.
+- [SportWizzard Edges & Arbitrage API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-edges-arbitrage-api/) — Computed signals. Verify before you act on one.
+- [SportWizzard Events API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-events-api/) — Games and matches: the spine everything keys off.
+- [SportWizzard Historical API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-historical-api/) — Point-in-time odds and settled arbitrage for backtesting.
+- [SportWizzard Odds API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-odds-api/) — The flat, normalized odds feed and its delta sync.
+- [SportWizzard Players & Competitors API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-players-competitors-api/) — Canonical player and competitor records and IDs.
+- [SportWizzard Reference API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-reference-api/) — Free catalog data: competitions, seasons, sportsbooks, markets, status.
+- [SportWizzard Snapshot API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-snapshot-api/) — The whole live board in one pull, with optional price history.
+- [SportWizzard Stats API](https://apis.io/apis/sportwizzard-com/sportwizzard-com-stats-api/) — Box scores for players and competitors.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SportWizzard Agentic Access](https://apis.io/agentic-access/sportwizzard-com/sportwizzard-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiResponseCompetitorDto](https://apis.io/schemas/sportwizzard-com/sportwizzard-com-api-response-competitor-dto/)
+- [ApiResponseCompetitorStatRow](https://apis.io/schemas/sportwizzard-com/sportwizzard-com-api-response-competitor-stat-row/)
+- [ApiResponseEventDetailDto](https://apis.io/schemas/sportwizzard-com/sportwizzard-com-api-response-event-detail-dto/)
+- [ApiResponseEventStatsDto](https://apis.io/schemas/sportwizzard-com/sportwizzard-com-api-response-event-stats-dto/)
+- [ApiResponseHistoricalOddsRow](https://apis.io/schemas/sportwizzard-com/sportwizzard-com-api-response-historical-odds-row/)
+- [ApiResponsePlayerStatRow](https://apis.io/schemas/sportwizzard-com/sportwizzard-com-api-response-player-stat-row/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sportwizzard Com Context](https://apis.io/jsonld/sportwizzard-com/sportwizzard-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SportWizzard API Rules](https://apis.io/rules/sportwizzard-com/sportwizzard-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SportWizzard Authentication](https://apis.io/security/sportwizzard-com/sportwizzard-com-authentication/)
+- [SportWizzard Domain Security](https://apis.io/security/sportwizzard-com/sportwizzard-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SportWizzard Plans Pricing](https://apis.io/plans/sportwizzard-com/sportwizzard-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sportwizzard.com/)
+- [Documentation](https://sportwizzard.com/guides/line-shopping-methodology)
+- [Getting started](https://sportwizzard.com/developers)
+- [API reference](https://sportwizzard.com/developers/reference)
+- [Pricing](https://sportwizzard.com/pricing)
+- [Terms of service](https://sportwizzard.com/terms)
+- [Privacy policy](https://sportwizzard.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.3** — strong · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 61.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 59.1 |
+
+**Agent readiness 42.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sportwizzard-com/](https://apis.io/providers/sportwizzard-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SportWizzard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sportwizzard-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
